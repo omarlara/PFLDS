@@ -1,0 +1,61 @@
+﻿
+@media (min-width: 768px) {
+  #vineyards #locations .list > .vineyards > .row > div.clear {
+    clear: both
+  }
+}
+
+@media (min-width: 768px) {
+    
+}
+
+/*press-events & wine-advice fix*/
+#press-events .item-section {
+border-top: 1px solid #222222;
+}
+
+
+#press-events .item-section .row {
+margin-right: -10px;
+margin-left: -10px;
+}
+
+#press-events .item-section .row > div {
+padding-right: 10px;
+padding-left: 10px;
+}
+
+#press-events .item-section img {
+    width:100%;
+}
+
+#press-events .item-section .text {
+margin-bottom: 50px;
+}
+
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    #press-events .item-section > .row > div > .row {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #press-events .item-section {
+        margin-bottom: 50px;
+    }
+}
+
+/*category listing*/
+@media (max-width: 767px) {
+    #uniquely-penfolds .content .row.hidden-xs {
+        display: block !important;
+    }
+}
+/*end category listing*/
+}
+
+
+#uniquely-penfolds .content .row > div.col-md-4:nth-child(4) {
+    clear:both;
+}

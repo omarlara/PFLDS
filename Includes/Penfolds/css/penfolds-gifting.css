@@ -1,0 +1,1407 @@
+@charset "UTF-8";
+.wrapper-inner-hero {
+  background: black url("../Images/hero/hero-bg.jpg") repeat scroll center top;
+}
+
+body.gifting #home #hero.hero-component {
+  background-color: transparent;
+}
+
+body.gifting #home #hero.hero-component .carousel-container {
+  padding: 0;
+  width: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body.gifting #home #hero.hero-component .hero-container {
+  vertical-align: top;
+}
+
+body.gifting #home #hero.hero-component .slide {
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  background-position: 50% 0;
+}
+
+body.gifting #home #hero.hero-component .slide .carousel-inner > .item {
+  padding-bottom: 0;
+}
+
+body.gifting #home #hero.hero-component #hero.hero-fix {
+  height: auto;
+}
+
+body.gifting #home #hero.hero-component .fluid-container.container .hero-height {
+  height: auto;
+}
+
+body.gifting #home #hero.hero-component .caption .inner-caption {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+body.gifting #home #hero.hero-component .caption .inner-caption h3 {
+  color: #b7b09c;
+  font-size: 51px;
+  font-size: 5.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "ProximaNovaRegular";
+  font-style: normal;
+  margin: 0;
+  line-height: 1;
+}
+
+body.gifting #home #hero.hero-component .caption .inner-caption h4 {
+  color: #ffffff;
+  font-size: 40px;
+  font-size: 4rem;
+  margin: 0 0 0;
+}
+
+body.gifting #home #hero.hero-component .caption .inner-caption h4 span.separator-underline {
+  display: block;
+  width: 14%;
+  margin: 10px auto 18px auto;
+  border-bottom: 2px solid #be0216;
+}
+
+body.gifting #home #hero.hero-component .caption .inner-caption p {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-style: normal;
+  line-height: normal;
+  color: #f8f8f7;
+  margin: 0 0 5px;
+}
+
+body.gifting #home #hero.hero-component .caption .inner-caption a.btn {
+  margin-top: 1.6rem;
+  font-family: "ProximaNovaRegular";
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+body.gifting #home #hero.hero-component .caption .inner-caption a.occasions-btn {
+  border-color: transparent;
+  color: #be0216;
+  margin-bottom: 40px;
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+body.gifting #home #hero.hero-component .caption .inner-caption a.occasions-btn:hover {
+  color: #fff;
+}
+
+@media (min-width: 481px) {
+  #home .hero-height {
+    height: 670px;
+  }
+}
+
+@media (max-width: 480px) {
+  #home .hero-height {
+    height: 393px;
+  }
+  .wrapper-inner-hero {
+    background-image: url("../Images/hero/hero-bg-mobile.jpg");
+  }
+  body.gifting #home #hero.hero-component {
+    padding: 0 14px 14px;
+    padding: 0 1.4rem 1.4rem;
+  }
+  body.gifting #home #hero.hero-component .caption {
+    padding: 0 16px;
+  }
+  body.gifting #home #hero.hero-component .hero-container {
+    padding: 0;
+    vertical-align: top;
+  }
+  body.gifting #home #hero.hero-component .carousel .slide {
+    background-attachment: inherit;
+    background-size: cover;
+    position: relative;
+    background-position: 32% 0 !important;
+  }
+  body.gifting #home #hero.hero-component .carousel .slide .inner-caption h3 {
+    font-size: 40px;
+    font-size: 4rem;
+    margin-top: 5px;
+  }
+  body.gifting #home #hero.hero-component .carousel .slide .inner-caption h4 {
+    font-size: 30px;
+    font-size: 3rem;
+    margin-top: 0;
+  }
+  body.gifting #home #hero.hero-component .carousel .slide .inner-caption p {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  body.gifting #home #hero.hero-component .carousel .slide .inner-caption a.btn {
+    margin-top: 10px;
+    font-size: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  body.gifting #home #hero.hero-component .carousel .slide .inner-caption h3 {
+    font-size: 35px;
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+  body.gifting #home .hero-height,
+  body.gifting #home.hero-height {
+    height: auto;
+    min-height: 500px;
+  }
+}
+
+.hero-height.hero-2 {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body.gifting #home #hero.hero-component.heroFix {
+  width: 95%;
+  height: 534px;
+  margin: 0 auto;
+  padding-top: 2.5%;
+}
+
+body.gifting #home #hero.hero-component.heroFix .hero-height {
+  height: 500px;
+}
+
+body.gifting #home #hero.hero-component.hero-2 .slide {
+  background-attachment: inherit;
+}
+
+.collection-wines .headline div {
+  padding: 10rem 1rem 0;
+}
+
+.collection-wines .headline h2 {
+  font-size: 45px;
+  font-size: 4.5rem;
+  font-weight: lighter;
+  font-style: italic;
+  color: #333232;
+  overflow: hidden;
+}
+
+.collection-wines .headline h2:after {
+  border: 0 none;
+  content: "";
+  display: block;
+  height: 24px;
+  position: static;
+  background-size: 100% 100%;
+  background: url("../Images/collections/headline.png") no-repeat center top scroll transparent;
+  margin-top: 20px;
+}
+
+.collection-wines .headline h3 {
+  font-family: "ProximaNovaRegular";
+  color: #b7b09c;
+  margin-bottom: -20px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 1em;
+}
+
+.collection-wines a.show-all, .collection-wines a.hide-all {
+  color: #be0216;
+  text-transform: uppercase;
+  display: block;
+  font-family: "ProximaNovaRegular";
+  font-size: 12px;
+  font-size: 1.2rem;
+  margin: 1rem 1rem 3rem;
+  padding: 1em;
+}
+
+.collection-wines a.hide-all {
+  display: none;
+}
+
+.collection-wines .tmp-hide {
+  margin-top: 0;
+  opacity: 0;
+  display: none;
+}
+
+.collection-wines .item {
+  min-height: 580px;
+}
+
+.collection-wines .item .collection-item {
+  padding: 1rem 1rem 0;
+  text-align: center;
+  overflow: hidden;
+  min-height: 570px;
+  position: relative;
+  -webkit-transition: border-color 0.5s ease-in-out;
+  transition: border-color 0.5s ease-in-out;
+  border: 2px dotted transparent;
+}
+
+.collection-wines .item .collection-item:hover {
+  border: 2px dotted #be0216;
+}
+
+.collection-wines .item .collection-item:hover i.icon {
+  display: block;
+  margin-top: 0;
+  opacity: 1;
+  top: 0px;
+}
+
+.collection-wines .item .collection-item:hover .btn-default {
+  border-color: transparent;
+  top: 30px;
+  opacity: 0;
+}
+
+.collection-wines .item .collection-item img {
+  background: transparent none scroll 0 0;
+}
+
+.collection-wines .item .collection-item .description {
+  position: relative;
+}
+
+.collection-wines .item .collection-item .short-description, .collection-wines .item .collection-item .price {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  display: block;
+}
+
+.collection-wines .item .collection-item h2 {
+  color: #b7b09c;
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  font-family: "ProximaNovaRegular";
+  font-weight: bold;
+}
+
+.collection-wines .item .collection-item i.icon {
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  opacity: 0;
+  position: relative;
+  top: 30px;
+}
+
+.collection-wines .item .collection-item i.icon::before {
+  border: 1px dotted #be0216;
+  border-radius: 100%;
+  color: #be0216;
+  font-size: 2rem;
+  padding: 2.5rem;
+}
+
+.collection-wines .item .collection-item .btn-cta {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  left: 0;
+  right: 0;
+}
+
+.collection-wines .container {
+  max-width: 960px;
+}
+
+.collection-wines .btn-default {
+  border-color: #b7b09c;
+  font-family: "ProximaNovaRegular";
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #b7b09c;
+  margin: 14px 0 0;
+  position: relative;
+  top: 0;
+  display: block;
+  width: auto;
+  opacity: 1;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.collection-wines .show-all, .collection-wines .hide-all {
+  font-family: "ProximaNovaRegular";
+  font-size: 15px;
+  font-size: 1.5em;
+  color: #be0216;
+  font-weight: 600;
+}
+
+.collection-wines .show-all span, .collection-wines .hide-all span {
+  display: block;
+}
+
+.collection-wines .show-all i, .collection-wines .hide-all i {
+  border: 1px dotted #be0216;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 0.5rem;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.collection-wines .show-all i :after, .collection-wines .hide-all i :after {
+  content: '';
+  display: block;
+  height: auto;
+  min-height: 1px;
+}
+
+@media (max-width: 480px) {
+  .collection-wines .headline div {
+    padding: 4rem 1rem 0rem;
+  }
+  .collection-wines .headline h2 {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+  .collection-wines .wines-grid > div.item:first-child .collection-item {
+    margin-top: 0;
+  }
+  .collection-wines .tmp-hide {
+    margin-top: 0;
+  }
+  .collection-wines .item {
+    min-height: 1px;
+  }
+  .collection-wines .item .collection-item a.btn-default {
+    opacity: 1 !important;
+    top: auto !important;
+    font-size: 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    border-color: #b7b09c !important;
+    color: #b7b09c;
+    margin-bottom: 10px;
+  }
+  .collection-wines .item .collection-item:hover {
+    border-color: transparent;
+  }
+  .collection-wines .item .btn-cta {
+    display: none !important;
+  }
+  .collection-wines .item .description {
+    margin-bottom: 30px;
+  }
+  .collection-wines .item .description .short-description, .collection-wines .item .description .price {
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    display: block;
+  }
+  .collection-wines .item .description .price {
+    font-size: 18px;
+    font-size: 1.8rem;
+    display: block;
+  }
+  .collection-wines .item .collection-item {
+    min-height: 1px;
+    margin: 0 3rem 2rem;
+  }
+  .collection-wines .item .collection-item h2 {
+    margin: 0;
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .collection-wines .item .collection-item h3 {
+    font-size: 15px;
+    font-size: 1.5rem;
+  }
+  .collection-wines .item .collection-item img {
+    max-width: 60%;
+  }
+}
+
+.occasions {
+  background: url("../Images/hero/hero-bg.jpg") repeat 0 0 #000 scroll;
+  overflow: hidden;
+}
+
+.occasions .thumb {
+  opacity: 0;
+}
+
+.occasions .headline div {
+  padding: 4.5rem 2rem;
+}
+
+.occasions .headline h3 {
+  font-family: "ProximaNovaRegular";
+  color: #b7b09c;
+  margin-bottom: -6px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.occasions .headline h2 {
+  color: #ffffff;
+  font-size: 60px;
+  font-size: 6rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.occasions .inner-photo:hover {
+  background-size: cover !important;
+}
+
+.occasions .inner-photo {
+  background-size: cover !important;
+  background-color: #666;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 380px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.occasions .inner-photo h3 {
+  color: #b7b09c;
+  font-size: 36px;
+  font-size: 3.6rem;
+}
+
+.occasions .inner-photo .occasion-caption {
+  height: 100%;
+  left: 50%;
+  margin: 0 auto;
+  min-height: 380px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 1;
+}
+
+.occasions .inner-photo .occasion-caption .occasion-center {
+  left: -50%;
+  position: relative;
+  text-align: center;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  width: 100%;
+}
+
+.occasions .inner-photo .occasion-caption .occasion-center .icon-group {
+  display: inline-block;
+  text-align: center;
+  background: url("fonts/occasion-small-circle.svg") no-repeat scroll;
+  background-size: 100% 100%;
+  width: auto;
+  padding: 15px;
+  position: relative;
+}
+
+.occasions .inner-photo .occasion-caption .occasion-center a.explore {
+  font-family: "ProximaNovaRegular";
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #BDBDB0;
+  display: inline-block;
+  font-size: 10px;
+  font-size: 1rem;
+  margin: 10px auto 0;
+  padding: 13px 10px 0;
+  border-top: 3px solid #be0216;
+  text-decoration: none;
+}
+
+.occasions .inner-photo .occasion-caption .occasion-center i.icon::before {
+  color: #bdbdb0;
+  content: "g";
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.occasions h2.title, .occasions h3 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.occasions .gallery div[class*='col-'] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width: 480px) {
+  .occasions .inner-photo {
+    min-height: 222px;
+    background-size: cover;
+  }
+  .occasions .inner-photo .occasion-caption {
+    min-height: 220px;
+  }
+  .occasions .inner-photo .occasion-caption div.svg-icon {
+    height: 180px;
+    width: 180px;
+  }
+  .occasions .headline div {
+    padding: 5em 1em;
+  }
+  .occasions .headline h3 {
+    color: #ffffff;
+    margin-bottom: -7px;
+    font-size: 10px;
+    font-size: 1rem;
+  }
+  .occasions .headline h2 {
+    font-size: 40px;
+    font-size: 4rem;
+    color: #b7b09c;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .occasions .headline div {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .occasions .inner-photo h3 {
+    font-size: 20px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .occasions .inner-photo {
+    min-height: 25rem;
+    max-height: 25rem;
+    height: 25rem;
+  }
+  .occasions .inner-photo h3 {
+    font-size: 2.5rem;
+  }
+  .occasions .inner-photo .occasion-caption {
+    min-height: 25rem;
+    max-height: 25rem;
+    height: 25rem;
+  }
+}
+
+.occasions .inner-photo .explore-animate {
+  bottom: auto;
+  font-family: "ProximaNovaRegular";
+  font-size: 1rem;
+  display: block;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 43%;
+  vertical-align: middle;
+  width: 100%;
+  opacity: 0;
+}
+
+.occasions .inner-photo:hover .icon-group {
+  opacity: 0;
+}
+
+.occasions .inner-photo:hover .desc-group {
+  opacity: 0;
+}
+
+.occasions .inner-photo:hover div.svg-icon {
+  opacity: 1;
+}
+
+.occasions .svg-icon-wrapper {
+  height: 100%;
+  position: absolute;
+  top: -25px !important;
+  transition: all 0.2s ease-in-out 0s;
+  width: 100%;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.occasions div.svg-icon {
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  background: transparent url("fonts/occasion-icon2.svg") no-repeat scroll 0 0/100% 100%;
+  height: 180px;
+  margin: 0 auto;
+  opacity: 0;
+  position: relative;
+  width: 180px;
+}
+
+.occasions div.svg-icon span.main-wrap {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.occasions div.svg-icon span.main-wrap span {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  padding: 30%;
+  vertical-align: middle;
+  color: white;
+  font-family: "ProximaNovaRegular";
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.occasions .icon-group {
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  color: #f8f8f7;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-family: "ProximaNovaRegular";
+  opacity: 1;
+}
+
+.occasions .desc-group {
+  width: 100%;
+  text-align: center;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  opacity: 1;
+}
+
+.wine-top-section {
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+.wine-top-section h1 {
+  color: #b7b09c;
+  font-size: 9rem;
+  font-family: "ProximaNovaRegular";
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+}
+
+.wine-top-section h1 span {
+  border-bottom: 3px solid #be0216;
+  display: inline-block;
+}
+
+.wine-top-section h2 {
+  color: #b7b09c;
+  font-size: 3.5rem;
+}
+
+.wine-top-section .container {
+  max-width: 700px;
+  min-width: 700px;
+  padding: 0;
+}
+
+.wine-top-section .container .row {
+  padding: 0;
+  margin: 0;
+}
+
+.wine-top-section .hline2 {
+  text-align: right;
+  position: relative;
+}
+
+.wine-top-section .hline2 div[class*='col-'] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wine-top-section .hline2 .product .product-inner {
+  margin-top: 30%;
+}
+
+.wine-top-section .hline2 .product .product-inner h1, .wine-top-section .hline2 .product .product-inner h2 {
+  opacity: 0;
+}
+
+.wine-top-section .hline2 .product .product-inner h1.animated, .wine-top-section .hline2 .product .product-inner h2.animated {
+  opacity: 1;
+}
+
+.wine-top-section .hline2 .product .product-inner h2 {
+  color: #999999;
+}
+
+.wine-top-section .hline2 .product-image .img-responsive {
+  display: inline-block;
+  float: left;
+  height: auto;
+  margin-left: -16%;
+  margin-top: -37%;
+  max-width: 100%;
+  margin-bottom: -42%;
+  text-align: left;
+}
+
+.wine-top-section .hline2 .product-image.animated {
+  opacity: 1;
+}
+
+.wine-top-section .product-inner {
+  position: relative;
+  bottom: 10%;
+}
+
+.wine-top-section .product-inner.animated {
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .wine-top-section h1 {
+    font-size: 45px;
+    font-size: 4.5rem;
+    text-align: right;
+    line-height: 1.1;
+  }
+  .wine-top-section h2 {
+    font-size: 30px;
+    font-size: 2rem;
+    margin: 4px 0 0 0;
+    text-align: right;
+    color: #999999;
+  }
+  .wine-top-section .hline2 .product-image .img-responsive {
+    margin-left: -17%;
+    min-width: 99%;
+  }
+  .wine-top-section .hline2 .product .product-inner {
+    left: -8px;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .wine-top-section .hline2 .product .product-inner {
+    margin-top: 40%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  #home .hero-height {
+    height: auto;
+    min-height: 390px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .wine-top-section h1 {
+    font-size: 60px;
+    font-size: 6rem;
+  }
+  .wine-top-section h2 {
+    font-size: 3px;
+    font-size: 3rem;
+    margin: 0;
+    text-align: right;
+    color: #999999;
+  }
+}
+
+@media (max-width: 768px) {
+  .wine-top-section .container {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .wine-top-section .hline2 .product .product-inner {
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wine-top-section .hline2 {
+    position: relative;
+    left: -10%;
+  }
+  .wine-top-section .hline2 .product-image .img-responsive {
+    min-width: 120%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #header ul.navbar-nav li > a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  .form-wrapper .row > div, form .row > div {
+    padding: 0;
+  }
+  #header .navbar-nav li > a {
+    padding: 19px 11px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #header .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  #header .navbar-collapse {
+    text-align: center;
+  }
+  #header .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+    min-width: 1px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header .navbar-collapse {
+    text-align: center;
+  }
+  #header .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+    min-width: 970px;
+  }
+}
+
+.modal.collections {
+  padding: 2.5%;
+}
+
+.modal.collections .modal-dialog {
+  background: #1d1a1c;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjIwJSIgc3RvcC1jb2xvcj0iIzFkMWExYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1NjI1MjgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(45deg, #1d1a1c 20%, #562528 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(20%, #1d1a1c), color-stop(100%, #562528));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg, #1d1a1c 20%, #562528 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg, #1d1a1c 20%, #562528 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg, #1d1a1c 20%, #562528 100%);
+  /* IE10+ */
+  background: linear-gradient(45deg, #1d1a1c 20%, #562528 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d1a1c', endColorstr='#562528',GradientType=1 );
+  /* IE6-8 fallback on horizontal gradient */
+  min-width: 100%;
+  margin: 0 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal.collections .modal-content {
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+  height: 100%;
+  min-height: 550px;
+  display: table;
+  width: 100%;
+  position: static;
+}
+
+.modal.collections .modal-header {
+  padding: 0;
+  padding: 0;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.modal.collections .modal-header h4.modal-title {
+  color: #ffffff;
+}
+
+.modal.collections .modal-header button.close {
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
+}
+
+.modal.collections .modal-body {
+  padding: 0;
+  padding: 0;
+  /* display: table-cell; */
+  height: auto;
+  padding: 0;
+  padding: 0;
+  vertical-align: middle;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  position: static;
+}
+
+.modal.collections .modal-body p {
+  color: #ffffff;
+}
+
+.modal.collections .carousel-inner {
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.modal.collections .carousel-inner .container {
+  max-width: 800px;
+  width: auto;
+  position: static;
+}
+
+.modal.collections .carousel-inner .container > div {
+  position: static;
+}
+
+.modal.collections .carousel-inner > .item {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.modal.collections .carousel-inner .inner-caption * {
+  -webkit-font-smoothing: antialiased;
+}
+
+.modal.collections .carousel-inner .inner-caption h1 {
+  color: #b7b09c;
+  font-size: 85px;
+  font-size: 7.4rem;
+  font-family: "ProximaNovaRegular";
+  font-weight: 600;
+  margin: 0px 0 0 0;
+  margin: 0rem 0 0;
+  line-height: 1.5;
+}
+
+.modal.collections .carousel-inner .inner-caption h3 {
+  color: #fff;
+  font-size: 30px;
+  font-size: 3rem;
+  margin: -10px 0 0 0;
+  line-height: 1;
+}
+
+.modal.collections .carousel-inner .inner-caption h3 span.separator-underline {
+  display: block;
+  width: 100px;
+  margin: 10px auto 15px;
+  border-bottom: 2px solid #be0216;
+}
+
+.modal.collections .carousel-inner .inner-caption p {
+  color: #e6e3de;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.modal.collections .carousel-inner .inner-caption div.description {
+  margin-top: 3rem;
+}
+
+.modal.collections .carousel-inner .inner-caption div.description p {
+  margin: 0;
+}
+
+.modal.collections .carousel-inner .inner-caption div.description h4 {
+  color: #b7b09c;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "ProximaNovaRegular";
+  font-weight: 600;
+  margin: 0;
+  line-height: 1;
+}
+
+.modal.collections .carousel-inner .inner-caption div.description span {
+  display: block;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.modal.collections .carousel-inner .inner-caption div.description span.price {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+.modal.collections .carousel-inner .inner-caption div.description a.btn {
+  display: inline-block;
+  display: inline-block;
+  margin: 3rem 0 2rem;
+  padding: 1rem 4rem;
+  font-family: "ProximaNovaRegular";
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+.modal.collections .carousel-inner .inner-caption div.description a {
+  font-family: "ProximaNovaRegular";
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+.modal.collections .carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.modal.collections .carousel div.bg {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: url("../Images/wine-top/wine-hero2.png") no-repeat transparent;
+  background-size: cover;
+}
+
+.modal.collections .carousel img {
+  max-width: 100%;
+  display: none;
+  margin: 0px 0;
+  position: relative;
+  margin: 0rem 0;
+  right: 0;
+}
+
+.modal.collections .carousel .carousel-control .arrow {
+  background-size: 100% 100%;
+  height: 20px;
+  width: 15px;
+}
+
+.modal.collections .carousel .carousel-control .arrow.right:before {
+  left: -15px;
+}
+
+.modal.collections .carousel .carousel-control .arrow:before {
+  background: url("fonts/occasion-small-circle.svg") no-repeat scroll;
+  content: "";
+  display: block;
+  height: 50px;
+  left: -10px;
+  position: absolute;
+  top: -11px;
+  width: 50px;
+}
+
+@media (max-width: 992px) {
+  .modal.collections .modal-dialog {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal.collections .carousel div.bg {
+    width: 50%;
+    position: relative;
+    right: 0;
+    top: 20px;
+    min-height: 200px;
+    background: url("../Images/wine-top/wine-hero2.png") no-repeat transparent center center;
+    background-size: auto 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 992px) {
+  .modal.collections .carousel img {
+    position: relative;
+  }
+  .modal.collections .carousel .carousel-inner .container {
+    position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal.collections {
+    padding: 5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal.collections .modal-dialog {
+    min-width: 80%;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal.collections .modal-dialog {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: 0 none;
+    display: block;
+  }
+  .modal.collections .modal-dialog .modal-content {
+    display: block;
+    border: 0 none;
+    padding: 0;
+  }
+  .modal.collections .modal-dialog .modal-content .modal-body {
+    display: block;
+  }
+  .modal.collections .carousel img {
+    display: block;
+    margin: 5% auto 0 auto;
+    position: relative;
+    max-width: 45%;
+    overflow: hidden;
+  }
+  .modal.collections .carousel .carousel-inner h1 {
+    font-size: 50px;
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+  .modal.collections .carousel .carousel-inner h3 {
+    font-size: 25px;
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  .modal.collections .carousel .carousel-inner .inner-caption {
+    margin-bottom: 0px;
+  }
+  .modal.collections .carousel .carousel-inner .inner-caption div.description h4 {
+    font-size: 2px;
+    font-size: 2rem;
+  }
+  .modal.collections .carousel .carousel-inner .inner-caption div.description a.btn {
+    margin: 20px 0 20px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .modal.collections .carousel-inner .inner-caption h1 {
+    font-size: 7.5rem;
+  }
+}
+
+@font-face {
+  font-family: 'NewBaskerville';
+  src: url("fonts/2B1026_7_0.eot");
+  src: url("fonts/2B1026_7_0.eot?#iefix") format("embedded-opentype"), url("fonts/2B1026_7_0.woff") format("woff"), url("fonts/2B1026_7_0.ttf") format("truetype"), url("fonts/2B1026_7_0.svg#wf") format("svg");
+}
+
+@font-face {
+  font-family: 'NewBaskerville';
+  font-style: italic;
+  src: url("fonts/2B1026_6_0.eot");
+  src: url("fonts/2B1026_6_0.eot?#iefix") format("embedded-opentype"), url("fonts/2B1026_6_0.woff") format("woff"), url("fonts/2B1026_6_0.ttf") format("truetype"), url("fonts/2B1026_6_0.svg#wf") format("svg");
+}
+
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url("fonts/ProximaNova-Light-webfont.eot");
+  src: url("fonts/ProximaNova-Light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNova-Light-webfont.woff2") format("woff2"), url("fonts/ProximaNova-Light-webfont.woff") format("woff"), url("fonts/ProximaNova-Light-webfont.ttf") format("truetype"), url("fonts/ProximaNova-Light-webfont.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url("fonts/ProximaNova-Regular-webfont.eot");
+  src: url("fonts/ProximaNova-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNova-Regular-webfont.woff2") format("woff2"), url("fonts/ProximaNova-Regular-webfont.woff") format("woff"), url("fonts/ProximaNova-Regular-webfont.ttf") format("truetype"), url("fonts/ProximaNova-Regular-webfont.svg#proxima_nova_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url("fonts/ProximaNovaA-Bold-webfont.eot");
+  src: url("fonts/ProximaNovaA-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNovaA-Bold-webfont.woff2") format("woff2"), url("fonts/ProximaNovaA-Bold-webfont.woff") format("woff"), url("fonts/ProximaNovaA-Bold-webfont.ttf") format("truetype"), url("fonts/ProximaNovaA-Bold-webfont.svg#proxima_nova_alt_rgbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaExtraBold';
+  src: url("fonts/ProximaNovaA-Extrabld-webfont.eot");
+  src: url("fonts/ProximaNovaA-Extrabld-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNovaA-Extrabld-webfont.woff2") format("woff2"), url("fonts/ProximaNovaA-Extrabld-webfont.woff") format("woff"), url("fonts/ProximaNovaA-Extrabld-webfont.ttf") format("truetype"), url("fonts/ProximaNovaA-Extrabld-webfont.svg#proxima_nova_altextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ProximaNovaLight {
+  font-family: 'ProximaNovaLight';
+}
+
+.ProximaNovaRegular {
+  font-family: 'ProximaNovaRegular';
+}
+
+.ProximaNovaBold {
+  font-family: 'ProximaNovaBold';
+}
+
+.ProximaNovaExtraBold {
+  font-family: 'ProximaNovaExtraBold';
+}
+
+.baker-Italic, body.gifting #home #hero.hero-component .caption .inner-caption h4 span, .collection-wines .item .collection-item .short-description, .collection-wines .item .collection-item .price, .occasions .inner-photo h3, .occasions h2.title, .wine-top-section h2, .modal.collections .carousel-inner .inner-caption h3 {
+  font-family: "NewBaskerville","Palatino Linotype",Palatino,Palladio,"URW Palladio L","Book Antiqua",Baskerville,"Bookman Old Style","Bitstream Charter","Nimbus Roman No9 L",Garamond,"Apple Garamond","ITC Garamond Narrow","New Century Schoolbook","Century Schoolbook","Century Schoolbook L",Georgia,"Microsoft Yahei","微软雅黑",宋体,SimSun,STXihei,"华文细黑",Droid Sans,serif;
+  font-style: italic;
+}
+
+.baker-Normal, body.gifting #home #hero.hero-component .caption .inner-caption p, .modal.collections .carousel-inner .inner-caption p {
+  font-family: "NewBaskerville","Palatino Linotype",Palatino,Palladio,"URW Palladio L","Book Antiqua",Baskerville,"Bookman Old Style","Bitstream Charter","Nimbus Roman No9 L",Garamond,"Apple Garamond","ITC Garamond Narrow","New Century Schoolbook","Century Schoolbook","Century Schoolbook L",Georgia,"Microsoft Yahei","微软雅黑",宋体,SimSun,STXihei,"华文细黑",Droid Sans,serif;
+  font-style: normal;
+}
+
+@extend .baker-Italic;
+@extend .baker-Normal;
+@font-face {
+  font-family: "penfolds";
+  src: url("fonts/penfolds.eot");
+  src: url("fonts/penfolds.eot?#iefix") format("embedded-opentype"), url("fonts/penfolds.woff") format("woff"), url("fonts/penfolds.ttf") format("truetype"), url("fonts/penfolds.svg#penfolds") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "penfolds" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "penfolds" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+  content: "l";
+}
+
+.icon-arrow-right:before {
+  content: "r";
+}
+
+.icon-gift:before {
+  content: "g";
+}
+
+.icon-magnifier:before {
+  content: "z";
+}
+
+.icon-minus:before {
+  content: "m";
+}
+
+.icon-plus:before {
+  content: "p";
+}
+
+.icon-close:before {
+  content: "c";
+}
+
+body {
+  background: none #EAE5E1 scroll;
+  font-size: inherit;
+}
+
+#scroll-to-top.active {
+  z-index: 10;
+}
+
+.link-secondary {
+  color: #b7b09c;
+  font-family: "ProximaNovaRegular";
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.link-secondary:hover {
+  color: #be0216;
+}
+
+.blur {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+/*# sourceMappingURL=penfolds-gifting.css.map */

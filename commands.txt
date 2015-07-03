@@ -1,0 +1,15 @@
+Steps to compile sass
+
+1. install and run node
+2. install grunt
+
+3.npm install
+
+4.Run this command
+npm install grunt-sass
+
+5.Run this command ("start the task to compile  sass")
+grunt sass 
+
+6.Run this command ("startig watching any sass change")
+grunt

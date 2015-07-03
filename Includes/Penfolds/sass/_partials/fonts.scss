@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'NewBaskerville';
+  src: url('fonts/2B1026_7_0.eot');
+  src: url('fonts/2B1026_7_0.eot?#iefix') format('embedded-opentype'), url('fonts/2B1026_7_0.woff') format('woff'), url('fonts/2B1026_7_0.ttf') format('truetype'), url('fonts/2B1026_7_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'NewBaskerville';
+  font-style: italic;
+  src: url('fonts/2B1026_6_0.eot');
+  src: url('fonts/2B1026_6_0.eot?#iefix') format('embedded-opentype'), url('fonts/2B1026_6_0.woff') format('woff'), url('fonts/2B1026_6_0.ttf') format('truetype'), url('fonts/2B1026_6_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url('fonts/ProximaNova-Light-webfont.eot');
+  src: url('fonts/ProximaNova-Light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNova-Light-webfont.woff2') format('woff2'),
+  url('fonts/ProximaNova-Light-webfont.woff') format('woff'),
+  url('fonts/ProximaNova-Light-webfont.ttf') format('truetype'),
+  url('fonts/ProximaNova-Light-webfont.svg#proxima_novalight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('fonts/ProximaNova-Regular-webfont.eot');
+  src: url('fonts/ProximaNova-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNova-Regular-webfont.woff2') format('woff2'),
+  url('fonts/ProximaNova-Regular-webfont.woff') format('woff'),
+  url('fonts/ProximaNova-Regular-webfont.ttf') format('truetype'),
+  url('fonts/ProximaNova-Regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('fonts/ProximaNovaA-Bold-webfont.eot');
+  src: url('fonts/ProximaNovaA-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNovaA-Bold-webfont.woff2') format('woff2'),
+  url('fonts/ProximaNovaA-Bold-webfont.woff') format('woff'),
+  url('fonts/ProximaNovaA-Bold-webfont.ttf') format('truetype'),
+  url('fonts/ProximaNovaA-Bold-webfont.svg#proxima_nova_alt_rgbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaExtraBold';
+  src: url('fonts/ProximaNovaA-Extrabld-webfont.eot');
+  src: url('fonts/ProximaNovaA-Extrabld-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNovaA-Extrabld-webfont.woff2') format('woff2'),
+  url('fonts/ProximaNovaA-Extrabld-webfont.woff') format('woff'),
+  url('fonts/ProximaNovaA-Extrabld-webfont.ttf') format('truetype'),
+  url('fonts/ProximaNovaA-Extrabld-webfont.svg#proxima_nova_altextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ProximaNovaLight {
+  font-family: 'ProximaNovaLight';
+}
+.ProximaNovaRegular {
+  font-family: 'ProximaNovaRegular';
+}
+.ProximaNovaBold {
+  font-family: 'ProximaNovaBold';
+}
+.ProximaNovaExtraBold {
+  font-family: 'ProximaNovaExtraBold';
+}
+
+
+.baker-Italic{
+  font-family: "NewBaskerville","Palatino Linotype",Palatino,Palladio,"URW Palladio L","Book Antiqua",Baskerville,"Bookman Old Style","Bitstream Charter","Nimbus Roman No9 L",Garamond,"Apple Garamond","ITC Garamond Narrow","New Century Schoolbook","Century Schoolbook","Century Schoolbook L",Georgia,"Microsoft Yahei","微软雅黑",宋体,SimSun,STXihei,"华文细黑",Droid Sans,serif ;
+  font-style:italic;
+}
+
+.baker-Normal{
+    font-family: "NewBaskerville","Palatino Linotype",Palatino,Palladio,"URW Palladio L","Book Antiqua",Baskerville,"Bookman Old Style","Bitstream Charter","Nimbus Roman No9 L",Garamond,"Apple Garamond","ITC Garamond Narrow","New Century Schoolbook","Century Schoolbook","Century Schoolbook L",Georgia,"Microsoft Yahei","微软雅黑",宋体,SimSun,STXihei,"华文细黑",Droid Sans,serif ;
+    font-style:normal;
+}
+
+@extend .baker-Italic;
+@extend .baker-Normal;

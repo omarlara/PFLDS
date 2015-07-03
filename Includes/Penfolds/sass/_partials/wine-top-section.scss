@@ -1,0 +1,213 @@
+.wine-top-caption{
+}
+.wine-top-section{
+	overflow-x:visible;
+	overflow-y:visible;
+	h1{
+			color:$maroon-primary;
+			font-size: 9rem;
+			font-family: $font-secondary;
+			font-weight: 600;
+			line-height: 1;
+			margin:0;
+			span{
+				border-bottom: 3px solid $red-primary;
+				display: inline-block;
+			}
+		}
+	h2{
+		color:$maroon-primary;
+		font-size: 3.5rem;
+		@extend .baker-Italic;
+	}
+	.container{
+		max-width: 700px;
+		min-width: 700px;
+		padding:0;
+		.row{
+			padding:0; margin:0;
+		}
+	}
+	.hline2{
+		text-align: right;
+		position:relative;
+		div[class*='col-']{
+		  padding-left: 0;
+		  padding-right: 0;
+		}
+		.product{
+			.product-inner{
+				margin-top: 30%;
+				h1,h2{
+					opacity: 0;
+					&.animated{
+						opacity: 1;
+					}
+				}
+				h2{
+					color: $maroon-bone;
+				}
+			}
+		}
+		.product-image{
+			//opacity: 	0;
+				.img-responsive{
+				    display: inline-block;
+				    float: left;
+				    height: auto;
+				    margin-left: -16%;
+				    margin-top: -37%;
+				    max-width: 100%;
+				    margin-bottom:-42%;
+				    text-align: left;
+				}
+		}
+		.product-image.animated	{
+				opacity:1;
+		}
+	}
+
+	.product-inner{
+		position:relative;
+		bottom:10%;
+		//opacity: 0;
+	}    
+		
+	.product-inner.animated{
+		opacity: 1;
+	}
+}
+
+//Phone
+@media (max-width: $screen-phone) {
+	.wine-top-section{
+		h1{
+			font-size: 45px;
+			font-size:4.5rem;
+			text-align: right;
+			line-height: 1.1;
+		}
+		h2{
+				font-size: 	30px;
+				font-size: 	2rem;
+				margin: 4px 0 0 0;
+				text-align: right;
+				color:$maroon-bone;
+		}
+		.hline2{
+			.product-image{
+				.img-responsive{
+					margin-left: -17%;
+					min-width: 99%;
+				}
+			}
+			
+			.product{
+				.product-inner{
+					left: -8px;
+					margin-top: 40px;								
+				}
+			}
+		}
+	} 
+}
+//Phone Big
+@media (min-width:321px) and (max-width: $screen-phone){
+	.wine-top-section{
+		.hline2{
+			.product-image{
+				.img-responsive{
+					//margin-bottom: -86px;
+					//margin-top: -77px;
+				}
+			}
+			.product{
+				.product-inner{
+					margin-top: 40%;
+				}
+			}
+		}
+	}
+}
+
+//Pablet
+@media (min-width: $screen-phone) and (max-width:$screen-sm){
+	#home .hero-height {
+		height: auto;
+    	min-height: 390px;
+	}
+	.wine-top-section{
+	}
+}
+@media (min-width: $screen-phone) and (max-width:$screen-sm){
+	.wine-top-section{
+		h1{
+			font-size: 60px;
+			font-size:6rem;
+		}
+		h2{
+				font-size: 3px;
+				font-size: 	3rem;
+				margin: 0;
+				text-align: right;
+				color:$maroon-bone;
+		}
+	}
+}
+
+@media (max-width:$screen-sm){
+	.wine-top-section{
+		.container{
+			max-width: 100%;
+			min-width: 100%;
+		}
+		.hline2{
+			.product{
+				.product-inner{
+					margin-top: 20%;
+				}
+			}
+		}		
+	}	
+}
+//tablet
+@media (min-width: $screen-tablet) and (max-width: $screen-sm-p){
+	.wine-top-section{
+		.hline2{
+			.product{
+				.product-inner{
+					
+				}
+			}
+		}
+	}
+}
+//tablet portrait
+@media (min-width: $screen-tablet) and (max-width: $screen-sm-p) and (orientation: portrait){
+	.wine-top-section{
+		.hline2{
+			.product{
+				.product-inner{
+					
+				}
+			}
+		}
+	}
+}
+@media (min-width:1024px){
+	.wine-top-section{
+		.hline2{
+			position: relative;
+			left: -10%;
+			.product-image{
+				.img-responsive{
+					min-width: 120%;
+				}
+			}
+			.product{
+				.product-inner{
+				}
+			}
+		}
+	}
+}

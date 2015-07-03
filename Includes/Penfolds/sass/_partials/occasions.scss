@@ -1,0 +1,288 @@
+.occasions{
+	background:url('../Images/hero/hero-bg.jpg') repeat 0 0 #000 scroll;
+	overflow:hidden;
+	.thumb{
+		opacity: 0;
+	}
+	.thumb.fadeInUp{
+		
+	}
+	.headline{
+		div{
+
+			padding:4.5rem 2rem;
+		}
+		h3{
+			font-family: $font-secondary;
+			color:$maroon-primary;
+			margin-bottom: -6px;
+			font-size: 14px; font-size: 1.4rem;
+			font-weight: 600;
+		}
+		h2{
+			color: $contrast-color;
+			font-size: 60px; font-size: 6rem;
+			font-weight: lighter;
+			font-style: italic;
+		}
+	}
+	.inner-photo:hover{
+		background-size: cover !important;
+	}
+	.inner-photo{
+		background-size: cover !important;
+		h3{
+			color:$maroon-primary;
+			font-size: 36px;
+			font-size: 3.6rem;
+			@extend .baker-Italic;
+		}
+
+		background-color: #666;
+		background-position:center center;
+		background-repeat:no-repeat;
+		min-height: 380px;
+		position:relative; 
+		overflow: hidden;
+		
+		background-size: cover;
+		background-position: center;
+		
+		
+		.occasion-caption{
+			height: 100%;
+		    left: 50%;
+		    margin: 0 auto;
+		    min-height: 380px;
+		    position: absolute;
+		    top: 50%;
+		    width: 100%;
+		    z-index: 1;
+			.occasion-center{
+				left: -50%;
+			    position: relative;
+			    text-align: center;
+			    transform: translateY(-50%);
+			    -webkit-transform: translateY(-50%);
+			    width: 100%;
+				.icon-group{
+					display:inline-block;
+					text-align: center;
+					background:url('fonts/occasion-small-circle.svg') no-repeat scroll;
+					background-size:100% 100%;
+					width: auto;
+					padding:15px;
+					position:relative;
+				}
+				a.explore{
+					font-family: $font-secondary;
+					font-weight: 600;
+					text-transform: uppercase;
+					color: #BDBDB0;
+					display: inline-block;
+					font-size: 10px;font-size: 1rem;
+    				margin: 10px auto 0;
+					padding:13px 10px 0;
+					border-top:3px solid $red-primary;
+					text-decoration:none;
+				}				
+
+				i.icon::before{
+				    color:$icon-tile-color;
+				    content: "g";
+				    display: inline-block;
+				    font-size: 2rem;
+				    font-weight: 100;				    				    
+				}
+
+			}			
+		}
+	}
+	h2.title{
+		@extend .baker-Italic;
+	}
+	h2.title, h3{
+		color: #ffffff;
+		margin:0;
+	}
+	.gallery{
+		div[class*='col-']{
+		  padding-left: 0;
+		  padding-right: 0;
+		}
+	}		
+}
+
+@media (max-width: 480px) {
+	.occasions{
+		.inner-photo{
+			min-height: 222px;
+			background-size:cover;
+			.occasion-caption{
+				min-height: 220px;
+
+				div.svg-icon{
+				height: 180px;
+				width: 180px;
+				//position: absolute;
+				//margin-bottom: -25%;
+				}
+			}
+
+		}
+		.headline {
+			div{
+				padding:5em 1em;
+			}
+			h3{
+				color:$contrast-color;
+				margin-bottom: -7px;
+				font-size: 10px; font-size: 1rem;
+			}
+			h2{
+				font-size: 40px; font-size: 4rem;
+				color:$maroon-primary;
+			}
+		}
+	}
+}
+
+@media (min-width:481px) and (max-width: 1024px){
+	.occasions .headline div {
+		padding: 3rem 1.5rem;
+		text-align: center;
+	}
+}
+@media (min-width: $screen-tablet) and (max-width: $screen-sm-p) and (orientation: portrait){
+	.occasions{
+		.inner-photo {
+			h3{
+				font-size: 20px; font-size: 2rem;
+			}
+		}
+	}
+}
+@media (min-width: $screen-tablet) and (max-width: $screen-sm-p){
+	.occasions{
+		.inner-photo {
+			min-height: 25rem;
+			max-height: 25rem;
+			height: 25rem;
+			h3{
+				font-size: 2.5rem;
+			}
+			.occasion-caption {
+				min-height: 25rem;
+				max-height: 25rem;
+				height: 25rem;
+			}
+		} 
+	}
+}
+
+
+//animations
+
+
+.occasions{
+	.inner-photo{
+		.explore-animate{
+			bottom: auto;
+			font-family: $font-secondary;
+			font-size: 1rem;
+		    display: block;
+		    height: auto;
+		    left: 0;
+		    position: absolute;
+		    right: 0;
+		    text-align: center;
+		    top: 43%;
+		    vertical-align: middle;
+		    width: 100%;
+		    opacity: 	0;
+		}	
+		&:hover{
+			i.icon{
+			}
+			.explore-animate{
+			}
+			.icon-group{
+				opacity: 0;
+
+			}
+			.desc-group{
+				opacity: 0;
+
+			}
+			div.svg-icon{
+				opacity: 1;
+			}
+			.svg-icon-wrapper{
+				//transform: translateY(-25%);
+			}
+		}
+	}
+	.svg-icon-wrapper{
+		height: 100%;
+	    position: absolute;
+	    top: -25px !important;
+	    transition: all 0.2s ease-in-out 0s;
+	    width: 100%;
+		 -webkit-transition: .2s ease-in-out;
+    		-moz-transition: .2s ease-in-out;
+    		  -o-transition: .2s ease-in-out;
+    		     transition: .2s ease-in-out;
+		//transform: translateY(50%);
+	}
+	div.svg-icon{
+		-webkit-transition: .5s ease-in-out;
+    		-moz-transition: .5s ease-in-out;
+    		  -o-transition: .5s ease-in-out;
+    		     transition: .5s ease-in-out;
+		background: transparent url("fonts/occasion-icon2.svg") no-repeat scroll 0 0 / 100% 100%;
+	    height: 180px;
+	    margin: 0 auto;
+	    opacity: 0;
+	    position: relative;
+	    width: 180px;
+		span.main-wrap{
+			display: table;
+			width: 100%;
+			height: 100%;
+			position:relative;
+			span{
+				display: table-cell;
+				width: 100%;
+				height: 100%;
+				padding: 30%;
+				vertical-align: middle;
+				color: white;
+				font-family: $font-secondary;
+				font-size: 12px;
+				font-size: 1.2rem;
+			}
+		}
+		
+
+	}
+	.icon-group{
+		-webkit-transition: .2s ease-in-out;
+    		-moz-transition: .2s ease-in-out;
+    		-o-transition: .2s ease-in-out;
+    		transition: .2s ease-in-out;
+    		color:$gray-light;
+    		font-size: 	0.7rem; text-transform:uppercase;
+    		font-family:$font-secondary;
+    		opacity: 1;
+	}
+	.desc-group{
+		//position:absolute;
+		width: 	100%;
+		text-align: center	;
+		-webkit-transition: .2s ease-in-out;
+    		-moz-transition: .2s ease-in-out;
+    		-o-transition: .2s ease-in-out;
+    		transition: .2s ease-in-out;
+    		opacity: 1;
+	}
+}

@@ -1,0 +1,35 @@
+@import '_partials/variables';
+@import '_partials/gifting';
+@import '_partials/hero';
+@import '_partials/collection-wines';
+@import '_partials/occasions';
+@import '_partials/wine-top-section';
+@import '_partials/navigation';
+@import '_partials/collection-wines-modal';
+@import '_partials/fonts';
+@import '_partials/fonticon';
+
+body{
+	background:none $body-bg scroll ;
+	font-size:inherit;
+}
+
+#scroll-to-top.active{
+	z-index:10;
+}
+
+//generic styles
+.link-secondary{
+	color:$maroon-primary;
+	font-family:$font-secondary;
+	font-size:1.2rem;
+	font-weight:600;
+	&:hover{
+		color:$red-primary;
+	}
+}
+
+.blur{
+	filter: blur(5px);
+	-webkit-filter:blur(5px);
+}
